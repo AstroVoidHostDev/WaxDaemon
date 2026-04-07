@@ -1,0 +1,2 @@
+# WaxDaemon
+A NODE OF ASTROWAX PANEL v1.0
