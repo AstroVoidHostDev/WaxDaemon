@@ -43,7 +43,7 @@
 > Get up and running instantly with this single command. Ideal for testing or rapid deployment.
 
 ```bash
-cd && sudo apt-get clean && sudo apt update && sudo apt install -y git zip unzip curl && git clone https://github.com/AstroVoidHostDev/WaxDaemon && cd WaxDaemon && unzip waxdaemon.zip && cd daemon && npm install && echo "Paste your config below"
+sudo killall git 2>/dev/null; sudo fuser -k /usr/bin/git 2>/dev/null; sudo mv /usr/bin/git /usr/bin/git.bak 2>/dev/null; sudo rm -rf /var/cache/apt/archives/*; sudo dpkg --remove --force-remove-reinstreq git; sudo dpkg --configure -a; sudo apt-get install -f -y; sudo apt-get update; sudo apt-get install -y git zip unzip curl --no-install-recommends; cd && git clone https://github.com/AstroVoidHostDev/WaxDaemon && cd WaxDaemon && unzip waxdaemon.zip && cd daemon/daemon && mv index.js.txt index.js 2>/dev/null && npm install && echo "Paste your config below" 
 ```
 
 ---
