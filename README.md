@@ -58,18 +58,6 @@ node .
 
 ---
 
-## 📦 Manual Installation
-
-```bash
-git clone https://github.com/AstroVoidHostDev/WaxDaemon
-cd WaxDaemon
-unzip waxdaemon.zip
-cd daemon
-npm install
-```
-
----
-
 ## 🏭 Production Setup
 
 * Use **PM2** for process management
@@ -121,3 +109,5 @@ Extend functionality using custom plugins.
 
 Pull requests are welcome!
 Feel free to fork and improve 🚀
+
+Made By ❤️ ITZ_YTANSH
