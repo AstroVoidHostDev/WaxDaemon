@@ -1,7 +1,7 @@
 <h1 align="center">✨ Wax Daemon ✨</h1>
 
 <p align="center">
-  <strong>⚡ Ultra Advanced Hosting Panel • Inspired by Pterodactyl Eggs</strong><br>
+  <strong>⚡ Ultra Advanced Hosting Node v1.0 • Inspired by Pterodactyl Eggs</strong><br>
   💻 Fast • Secure • Developer Friendly
 </p>
 
